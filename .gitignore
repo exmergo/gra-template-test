@@ -1,0 +1,36 @@
+# Python environments, caches, and build output
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Local source data, DuckDB databases, and dbt output
+warehouse/
+.data/
+.data-branch/
+*.duckdb
+*.duckdb.wal
+target/
+logs/
+dbt_packages/
+.user.yml
+
+# Keep Dex maps, accepted baselines, plans, and review evidence visible to Git.
+# Query ledgers are local execution logs.
+.dex/*.jsonl
+
+# Local credentials (allow a checked-in example)
+.env
+.env.*
+!.env.example
+
+# Local editor and OS files
+.idea/
+.DS_Store
+*.swp
+*.swo
