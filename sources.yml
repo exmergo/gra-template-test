@@ -1,6 +1,3 @@
 repositories:
   - repository: exmergo/gra-template-test
     mode: collect
-  # TEMPORARY: a repository that does not exist, to test the failure issue.
-  - repository: exmergo/this-repository-does-not-exist-gra
-    mode: collect
