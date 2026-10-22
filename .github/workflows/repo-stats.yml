@@ -1,7 +1,7 @@
 name: Collect and validate repository analytics
 on:
   schedule:
-    - cron: '25 4 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       accept_baseline:
