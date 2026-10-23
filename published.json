@@ -1,6 +1,6 @@
 {
-  "code_commit": "3e030f13029019ed9cdbafd0cc30215063c7174c",
-  "data_commit": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8",
+  "code_commit": "9ac85e94c8133c6b2fad8c36259a2374035b0ba9",
+  "data_commit": "f0eae9d7fe4feb0c5959560b5e45325dab5f59bc",
   "lock_sha256": "217df56bff48c366fea25697a56c0fe806691bded33959192f885d50ed377281",
   "lockfile": "uv.lock",
   "metrics_tested": [
@@ -49,20 +49,88 @@
       "data_repository": "exmergo/gra-template-test",
       "expected_refresh_hours": 24,
       "files": {
-        "exmergo/gra-template-test/ghrs-data/views_clones_aggregate.csv": "063af9c6650eb3c041309c8562e4589e23a36306516f3fd643ee77e47298a967",
+        "exmergo/gra-template-test/ghrs-data/views_clones_aggregate.csv": "1252ec62252b93d8f8190c0ef410f416f58ab3ba4f946e7ef4f181d267672837",
         "exmergo/gra-template-test/metadata/2026-10-22_164622_263919.json": "08322c966d4d6c5713ee914403b833b37fc934baf83426176f5437dd22843ac6",
         "exmergo/gra-template-test/metadata/2026-10-22_165357_727013.json": "8f961c72eb3f122fa137bd2378a34f8c7f4d41cd7e5b38e8388137b0261909b1",
-        "exmergo/gra-template-test/signals/capture.json": "ebe5911599d06413cbe0dccc4dcbad78029ff3600b1987ce04c3a652d93ec8b6",
+        "exmergo/gra-template-test/metadata/2026-10-23_043833_663958.json": "a1aa77cac4ea5b9d77cf153793ee481706c87a4923c0a0a842948ffa985e7df9",
+        "exmergo/gra-template-test/signals/capture.json": "11ecf4bc7f9403326e2f49394e9a3d94c5d13c2e75f49867ca978665e7963b7f",
         "exmergo/gra-template-test/signals/forks.csv": "e34636e6b99d0791ed89c500dc8bd887c90e86366398ba41b28c4232ffb9ae2d",
-        "exmergo/gra-template-test/signals/issues.csv": "121c0e42d6090a7856169cd9ffd2552a998be7a117ddb8f064a7212e9eae3821",
+        "exmergo/gra-template-test/signals/issues.csv": "77b37ad20b7b6a2a404cf768870d1ce3f6434a0fd253ea479801dae2fea9e2b8",
         "exmergo/gra-template-test/signals/stargazers.csv": "1501c9c3f0b646dc2e1e2dd5089625b82f7718818cdf2f642a7c9586e370add2"
       },
-      "publication": null,
+      "publication": {
+        "code_commit": "3e030f13029019ed9cdbafd0cc30215063c7174c",
+        "data_commit": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8",
+        "lock_sha256": "217df56bff48c366fea25697a56c0fe806691bded33959192f885d50ed377281",
+        "lockfile": "uv.lock",
+        "metrics_tested": [
+          "views",
+          "clones",
+          "visitor_days",
+          "cloner_days",
+          "observed_traffic_days",
+          "views_per_visitor_day",
+          "clones_per_cloner_day",
+          "stars_observed",
+          "forks_observed",
+          "stars_net_change",
+          "forks_net_change",
+          "legacy_stars_cumulative",
+          "legacy_forks_cumulative",
+          "referrer_views_14d",
+          "referrer_visitor_observations_14d",
+          "path_views_14d",
+          "path_visitor_observations_14d",
+          "watchers_observed",
+          "open_issues_and_prs_observed",
+          "legacy_stars_change",
+          "legacy_forks_change",
+          "events",
+          "stars_gained",
+          "forks_created",
+          "stars_from_history",
+          "issues_opened",
+          "issues_closed",
+          "prs_opened",
+          "prs_merged",
+          "first_time_contributor_prs",
+          "median_hours_to_merge",
+          "release_downloads",
+          "release_downloads_net_change",
+          "package_downloads",
+          "pypi_downloads",
+          "npm_downloads",
+          "views_28d",
+          "views_wow_growth",
+          "stars_gained_wow_growth"
+        ],
+        "sources": [
+          {
+            "data_repository": "exmergo/gra-template-test",
+            "expected_refresh_hours": 24,
+            "files": {
+              "exmergo/gra-template-test/ghrs-data/views_clones_aggregate.csv": "063af9c6650eb3c041309c8562e4589e23a36306516f3fd643ee77e47298a967",
+              "exmergo/gra-template-test/metadata/2026-10-22_164622_263919.json": "08322c966d4d6c5713ee914403b833b37fc934baf83426176f5437dd22843ac6",
+              "exmergo/gra-template-test/metadata/2026-10-22_165357_727013.json": "8f961c72eb3f122fa137bd2378a34f8c7f4d41cd7e5b38e8388137b0261909b1",
+              "exmergo/gra-template-test/signals/capture.json": "ebe5911599d06413cbe0dccc4dcbad78029ff3600b1987ce04c3a652d93ec8b6",
+              "exmergo/gra-template-test/signals/forks.csv": "e34636e6b99d0791ed89c500dc8bd887c90e86366398ba41b28c4232ffb9ae2d",
+              "exmergo/gra-template-test/signals/issues.csv": "121c0e42d6090a7856169cd9ffd2552a998be7a117ddb8f064a7212e9eae3821",
+              "exmergo/gra-template-test/signals/stargazers.csv": "1501c9c3f0b646dc2e1e2dd5089625b82f7718818cdf2f642a7c9586e370add2"
+            },
+            "publication": null,
+            "repository": "exmergo/gra-template-test",
+            "source_head": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8",
+            "source_revision": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8"
+          }
+        ],
+        "validated_at": "2026-10-22T16:55:57.155919+00:00",
+        "version": 1
+      },
       "repository": "exmergo/gra-template-test",
-      "source_head": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8",
-      "source_revision": "d5ddc25a1c4f42a5721f90fedfac8fd1bbaa49d8"
+      "source_head": "f0eae9d7fe4feb0c5959560b5e45325dab5f59bc",
+      "source_revision": "f0eae9d7fe4feb0c5959560b5e45325dab5f59bc"
     }
   ],
-  "validated_at": "2026-10-22T16:55:57.155919+00:00",
+  "validated_at": "2026-10-23T04:40:32.259326+00:00",
   "version": 1
 }
